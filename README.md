@@ -1,16 +1,31 @@
-# aura_mood
+🌙 AuraMood — Mood Tracker App
 
-A new Flutter project.
+Feel your energy. Track your aura.
 
-## Getting Started
+A beautifully crafted Flutter mood tracking app with animated UI, daily mood logging, and an immersive dark space theme.
 
-This project is a starting point for a Flutter application.
+✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+🎭 6 Mood Types — Radiant, Blissful, Focused, Serene, Restless, Cloudy
+🌈 Animated Gradient Background — Shifts dynamically based on mood selection
+💫 Pulse Animation — Ring breathes while a mood is active
+📋 Daily Mood Log — Timestamped history of all logged moods
+🎨 Color-coded Cards — Each mood has its own color identity
+📱 Fully Responsive — Works on all screen sizes
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Installation
+bash# Clone the repository
+git clone https://github.com/EamanFatima-11/AuraMood.git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Navigate to project
+cd AuraMood
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
+
+📁 Project Structure
+lib/
+└── main.dart       # Complete app — splash, home, mood grid, log
